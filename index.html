@@ -13,11 +13,10 @@
     </div>
     <nav>
       <a href="#">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">SERVICES</a>
-      <a href="#">BLOG</a>
+      <a href="#about">ABOUT</a>
+    
     </nav>
-    <a href="#contact" class="btn-contact">CONTACT</a>
+    <a href="#contact" class="btn-contact">KIRIMKAN SAYA PESAN</a>
   </header>
 
   <main>
@@ -31,6 +30,41 @@
         Hello, my name is Dennis Dustin, I go to Global Indonesia High School, now I am in 11th grade 
     </div>
   </main>
+ 
+ menu about
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="profile.jpg" alt="Tentang Saya">
+      </div>
+      <div class="about-text">
+        <h2>Tentang Saya</h2>
+        <p>
+          Nama : Dennis Dustin
+          || Agama : Buddha
+          || Lahir : 31-10-2008
+        </p>
+        <p>
+          Sekolah : sma global indonesia
+          || Status : Mahasiswa
+        </p>
+      </div>
+    </div>
+  </section>
+ 
+ contact
+  <section class="contact" id="contact">
+    <h2>KIRIMKAN PESAN UNTUK SAYA</h2>
+    <p>Jika kamu ingin bekerja sama atau sekadar menyapa, silakan kirim pesan melalui form di bawah ini.</p>
+    
+    <form action="#" method="post" class="contact-form">
+      <input type="text" name="name" placeholder="Masukan nama anda" required />
+      <input type="email" name="email" placeholder="Masukan email anda" required />
+      <textarea name="message" rows="5" placeholder="Berikan pesan" required></textarea>
+      <button type="submit">Kirim Pesan</button>
+    </form>
+  </section>
+  
 </body>
 </html>
 
