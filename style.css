@@ -138,9 +138,9 @@ body, html {
 
 /* Tentang Saya */
 .tentang-saya {
-    background: url('monkey-d-luffy-0cp6bwz93q5udc63.jpg') no-repeat center center/cover;
+    background: url('1352212.png') no-repeat center center/cover;
     padding: 80px 20px;
-    color: #333;
+    color: #968989;
     height: 100%;
 }
 
@@ -148,7 +148,7 @@ body, html {
     text-align: center;
     font-size: 36px;
     margin-bottom: 40px;
-    color: #2c3e50;
+    color: #123866;
 }
 
 .tentang-content {
@@ -166,7 +166,7 @@ body, html {
     height: 250px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 20px rgba(87, 79, 79, 0.2);
 }
 
 .tentang-content .deskripsi {
@@ -176,7 +176,7 @@ body, html {
 .tentang-content .deskripsi h3 {
     font-size: 24px;
     margin-bottom: 15px;
-    color: #00d1b2;
+    color: #2e1125;
 }
 
 .tentang-content .deskripsi p {
@@ -196,5 +196,64 @@ body, html {
     transition: background-color 0.3s;
 }
 .btn-tentang:hover {
+    background-color: #009e89;
+}
+
+/* Kontak Saya */
+.kontak-saya {
+    background: url('luffy\ 3.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.kontak-saya h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #45afa1;
+    font-weight: bold;
+}
+
+.kontak-saya p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #3097b1;
+    font-weight: bold;
+}
+
+.form-kontak {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-kontak input,
+.form-kontak textarea {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-kontak input:focus,
+.form-kontak textarea:focus {
+    outline: 2px solid #00d1b2;
+}
+
+.form-kontak button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #00d1b2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-kontak button:hover {
     background-color: #009e89;
 }
