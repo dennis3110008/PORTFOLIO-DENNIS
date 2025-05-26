@@ -1,70 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portofolio Pribadi</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <img src="dennis-removebg-preview.png" alt="Profile" />
-    </div>
-    <nav>
-      <a href="#">HOME</a>
-      <a href="#about">ABOUT</a>
-    
-    </nav>
-    <a href="#contact" class="btn-contact">KIRIMKAN SAYA PESAN</a>
-  </header>
 
-  <main>
-    <div class="photo">
-      <img src="luffy__-removebg-preview.png" alt="Foto Profil">
-    </div>
-    <div class="intro">
-      <h3>PORTFOLIO DENNIS DUSTIN</h3>
-      <h1>My Name Is <span>Dennis Dustin</span></h1>
-      <p>
-        Hello, my name is Dennis Dustin, I go to Global Indonesia High School, now I am in 11th grade 
-    </div>
-  </main>
- 
- menu about
-  <section class="about" id="about">
-    <div class="about-container">
-      <div class="about-image">
-        <img src="profile.jpg" alt="Tentang Saya">
-      </div>
-      <div class="about-text">
-        <h2>Tentang Saya</h2>
-        <p>
-          Nama : Dennis Dustin
-          || Agama : Buddha
-          || Lahir : 31-10-2008
-        </p>
-        <p>
-          Sekolah : sma global indonesia
-          || Status : Mahasiswa
-        </p>
-      </div>
-    </div>
-  </section>
- 
- contact
-  <section class="contact" id="contact">
-    <h2>KIRIMKAN PESAN UNTUK SAYA</h2>
-    <p>Jika kamu ingin bekerja sama atau sekadar menyapa, silakan kirim pesan melalui form di bawah ini.</p>
-    
-    <form action="#" method="post" class="contact-form">
-      <input type="text" name="name" placeholder="Masukan nama anda" required />
-      <input type="email" name="email" placeholder="Masukan email anda" required />
-      <textarea name="message" rows="5" placeholder="Berikan pesan" required></textarea>
-      <button type="submit">Kirim Pesan</button>
-    </form>
-  </section>
-  
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <div class="logo">Porto<span>folio</span></div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+            <button class="subscribe-btn">Subscribe</button>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home">
+        <div class="content">
+            <p>Hello! Nama Saya</p>
+            <h1>Dennis <span>Dustin</span></h1>
+            <h3>Saya seorang Mahasiswa GIS</h3>
+
+            <div class="input-box">
+                <input type="email" placeholder="dennisdustin025@gmail.com">
+                <button>Lets To Start</button>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
-
