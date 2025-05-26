@@ -135,3 +135,66 @@ body, html {
 .input-box button:hover {
     background-color: #009e89;
 }
+
+/* Tentang Saya */
+.tentang-saya {
+    background: url('monkey-d-luffy-0cp6bwz93q5udc63.jpg') no-repeat center center/cover;
+    padding: 80px 20px;
+    color: #333;
+    height: 100%;
+}
+
+.tentang-saya h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+.tentang-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.tentang-content .foto img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tentang-content .deskripsi {
+    max-width: 600px;
+}
+
+.tentang-content .deskripsi h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #00d1b2;
+}
+
+.tentang-content .deskripsi p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.btn-tentang {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00d1b2;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+.btn-tentang:hover {
+    background-color: #009e89;
+}
