@@ -138,10 +138,14 @@ body, html {
 
 /* Tentang Saya */
 .tentang-saya {
+    height: 100vh;
     background: url('1352212.png') no-repeat center center/cover;
-    padding: 80px 20px;
-    color: #968989;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+    color: white;
+    position: relative;
 }
 
 .tentang-saya h2 {
@@ -201,10 +205,14 @@ body, html {
 
 /* Kontak Saya */
 .kontak-saya {
+    height: 100vh;
     background: url('luffy\ 3.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
     color: white;
-    padding: 80px 20px;
-    text-align: center;
+    position: relative;
 }
 
 .kontak-saya h2 {
@@ -217,7 +225,7 @@ body, html {
 .kontak-saya p {
     font-size: 16px;
     margin-bottom: 40px;
-    color: #3097b1;
+    color: #0e323b;
     font-weight: bold;
 }
 
@@ -256,4 +264,34 @@ body, html {
 
 .form-kontak button:hover {
     background-color: #009e89;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 20px;
+    max-width: 10000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15 px;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.social-icons a {
+    color: #00d1b2;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
 }
